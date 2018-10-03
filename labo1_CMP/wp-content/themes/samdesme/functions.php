@@ -147,6 +147,208 @@ function wp_bootstrap_starter_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'wp_bootstrap_starter_scripts' );
 
+/**
+ * CUSTOM POST TYPES
+ */
+
+function recipes_init() {
+    $args = array(
+        'label' => 'Recipes',
+        'public' => true,
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'recipes'),
+        'query_var' => true,
+        'menu_icon' => 'dashicons-book-alt',
+        'taxonomy' => 'allergenen',
+        'supports' => array(
+            'title',
+            'editor',
+            'excerpt',
+            'trackbacks',
+            'custom-fields',
+            'comments',
+            'revisions',
+            'thumbnail',
+            'author',
+            'page-attributes',)
+    );
+    register_post_type( 'recipes', $args );
+}
+
+
+add_action( 'init', 'recipes_init' );
+
+
+
+/**
+ * TAXONOMIES
+ */
+
+function allergenen_taxonomy() {
+
+
+    $labels = array(
+        'name' => _x( 'Allergenen', 'taxonomy general name' ),
+        'singular_name' => _x( 'Allergenen', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Search Allergenen' ),
+        'all_items' => __( 'All Allergenen' ),
+        'parent_item' => __( 'Parent Allergeen' ),
+        'parent_item_colon' => __( 'Parent Allergeen:' ),
+        'edit_item' => __( 'Edit Allergeen' ),
+        'update_item' => __( 'Update Allergeen' ),
+        'add_new_item' => __( 'Add New Allergeen' ),
+        'new_item_name' => __( 'New Allergeen Name' ),
+        'menu_name' => __( 'Allergenen' ),
+    );
+
+
+    register_taxonomy('allergenen',array('recipes'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'allergenen' ),
+    ));
+
+}
+
+add_action( 'init', 'allergenen_taxonomy', 0 );
+
+
+function moeilijkheden_taxonomy() {
+
+
+    $labels = array(
+        'name' => _x( 'Moeilijkheden', 'taxonomy general name' ),
+        'singular_name' => _x( 'Moeilijkheden', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Search Moeilijkheden' ),
+        'all_items' => __( 'All Moeilijkheden' ),
+        'parent_item' => __( 'Parent Moeilijkheid' ),
+        'parent_item_colon' => __( 'Parent Moeilijkheid:' ),
+        'edit_item' => __( 'Edit Moeilijkheid' ),
+        'update_item' => __( 'Update Moeilijkheid' ),
+        'add_new_item' => __( 'Add New Moeilijkheid' ),
+        'new_item_name' => __( 'New Moeilijkheid Name' ),
+        'menu_name' => __( 'Moeilijkheden' ),
+    );
+
+    register_taxonomy('moeilijkheden',array('recipes'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'meta_box_cb'                => 'drop_cat',
+
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'moeilijkheden' ),
+    ));
+
+    wp_insert_term(
+        'beginner',
+        'moeilijkheden'
+    );
+
+    wp_insert_term(
+        'hobbykok',
+        'moeilijkheden'
+    );
+
+    wp_insert_term(
+        'professional',
+        'moeilijkheden'
+    );
+
+    wp_insert_term(
+        'expert',
+        'moeilijkheden'
+    );
+
+    function drop_cat( $post, $box ) {
+        $defaults = array('taxonomy' => 'moeilijkheden');
+        if ( !isset($box['args']) || !is_array($box['args']) )
+            $args = array();
+        else
+            $args = $box['args'];
+        extract( wp_parse_args($args, $defaults), EXTR_SKIP );
+        $tax = get_taxonomy($taxonomy);
+        ?>
+        <div id="taxonomy-<?php echo $taxonomy; ?>" class="acf-taxonomy-field categorydiv">
+
+            <?php
+            $name = ( $taxonomy == 'moeilijkheden' ) ? 'post_category' : 'tax_input[' . $taxonomy . ']';
+            echo "<input type='hidden' name='{$name}[]' value='0' />"; // Allows for an empty term set to be sent. 0 is an invalid Term ID and will be ignored by empty() checks.
+            ?>
+            <? $term_obj = wp_get_object_terms($post->ID, $taxonomy ); //_log($term_obj[0]->term_id)?>
+            <ul id="<?php echo $taxonomy; ?>checklist" data-wp-lists="list:<?php echo $taxonomy?>" class="categorychecklist form-no-clear">
+                <?php //wp_terms_checklist($post->ID, array( 'taxonomy' => $taxonomy) ) ?>
+            </ul>
+
+            <?php wp_dropdown_categories( array( 'taxonomy' => $taxonomy, 'hide_empty' => 0, 'name' => "{$name}[]", 'selected' => $term_obj[0]->term_id, 'orderby' => 'name', 'hierarchical' => 0, 'show_option_none' => '&mdash;' ) ); ?>
+
+        </div>
+        <?php
+    }
+
+}
+
+add_action( 'init', 'moeilijkheden_taxonomy', 0 );
+
+function categorieën_taxonomy() {
+
+
+    $labels = array(
+        'name' => _x( 'Categorieën', 'taxonomy general name' ),
+        'singular_name' => _x( 'Categorieën', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Search Categorieën' ),
+        'all_items' => __( 'All Categorieën' ),
+        'parent_item' => __( 'Parent Categorie' ),
+        'parent_item_colon' => __( 'Parent Categorie:' ),
+        'edit_item' => __( 'Edit Categorie' ),
+        'update_item' => __( 'Update Categorie' ),
+        'add_new_item' => __( 'Add New Categorie' ),
+        'new_item_name' => __( 'New Categorie Name' ),
+        'menu_name' => __( 'Categorieën' ),
+    );
+
+    register_taxonomy('categorieën',array('recipes'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'categorieën' ),
+    ));
+
+
+    wp_insert_term(
+        'patisserie',
+        'categorieën'
+    );
+
+    wp_insert_term(
+        'soep',
+        'categorieën'
+    );
+
+    wp_insert_term(
+        'stoofpotje',
+        'categorieën'
+    );
+
+    wp_insert_term(
+        'pasta',
+        'categorieën'
+    );
+
+}
+
+add_action( 'init', 'categorieën_taxonomy', 0 );
+
+
+
 
 
 /**

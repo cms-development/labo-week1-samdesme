@@ -141,3 +141,239 @@ Stack trace:
 [02-Oct-2018 19:24:54 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/post-template.php on line 298
 [02-Oct-2018 19:25:04 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/functions.php on line 3984
 [02-Oct-2018 19:25:08 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/functions.php on line 3984
+[02-Oct-2018 22:27:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:243) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 22:27:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:243) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 22:27:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:243) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 22:28:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:243) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 22:31:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 182
+[02-Oct-2018 22:31:03 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 182
+[02-Oct-2018 22:31:08 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 182
+[02-Oct-2018 22:31:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 182
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:38:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:06 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/media.php on line 2811
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:10 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:11 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/media.php on line 2811
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/taxonomy.php on line 211
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/taxonomy.php on line 211
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/taxonomy.php on line 211
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/taxonomy.php on line 211
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/taxonomy.php on line 211
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/taxonomy.php on line 211
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/taxonomy.php on line 211
+[02-Oct-2018 22:39:11 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/taxonomy.php on line 211
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:39:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:40:13 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:41:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 22:43:14 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-taxonomy.php on line 335
+[02-Oct-2018 23:28:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:28:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:28:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:28:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:28:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:29:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:29:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:29:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:30:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:30:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:30:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:30:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:31:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:32:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:34:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:35:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'example_insert_category' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[02-Oct-2018 23:39:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:272) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 23:40:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:272) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 23:40:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:272) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 23:41:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:272) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 23:43:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:272) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 23:45:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:272) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 23:45:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:272) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 23:51:59 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 276
+[02-Oct-2018 23:51:59 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 285
+[02-Oct-2018 23:51:59 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 286
+[02-Oct-2018 23:51:59 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 286
+[02-Oct-2018 23:51:59 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 287
+[02-Oct-2018 23:51:59 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 285
+[02-Oct-2018 23:51:59 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 286
+[02-Oct-2018 23:51:59 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 286
+[02-Oct-2018 23:51:59 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 287
+[02-Oct-2018 23:51:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:285) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[02-Oct-2018 23:52:04 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 276
+[02-Oct-2018 23:52:04 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 285
+[02-Oct-2018 23:52:04 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 286
+[02-Oct-2018 23:52:04 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 286
+[02-Oct-2018 23:52:04 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 287
+[02-Oct-2018 23:52:04 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 285
+[02-Oct-2018 23:52:04 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 286
+[02-Oct-2018 23:52:04 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 286
+[02-Oct-2018 23:52:04 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 287
+[02-Oct-2018 23:52:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:285) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[03-Oct-2018 00:00:34 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 293
+[03-Oct-2018 00:00:34 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 294
+[03-Oct-2018 00:00:34 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 294
+[03-Oct-2018 00:00:34 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 295
+[03-Oct-2018 00:00:34 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 293
+[03-Oct-2018 00:00:34 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 294
+[03-Oct-2018 00:00:34 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 294
+[03-Oct-2018 00:00:34 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 295
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 285
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 294
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 294
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 302
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 302
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 314
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 314
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:04:26 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:04:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:289) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 285
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 294
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 294
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 302
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 302
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 314
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 314
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:05:27 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 316
+[03-Oct-2018 00:05:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php:289) in /Applications/MAMP/htdocs/labo1_CMP/wp-admin/includes/misc.php on line 1126
+[03-Oct-2018 00:08:16 UTC] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:08:16 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:08:32 UTC] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:08:32 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:11:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'realty_type' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[03-Oct-2018 00:11:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'realty_type' not found or invalid function name in /Applications/MAMP/htdocs/labo1_CMP/wp-includes/class-wp-hook.php on line 286
+[03-Oct-2018 00:14:52 UTC] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:14:52 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 304
+[03-Oct-2018 00:17:57 UTC] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 289
+[03-Oct-2018 00:17:57 UTC] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/labo1_CMP/wp-content/themes/samdesme/functions.php on line 289
