@@ -42,8 +42,9 @@ endif;
 add_action( 'after_setup_theme', 'wp_bootstrap_starter_setup' );
 
 /**
- WIDGETS
+ * WIDGETS
  **/
+
 function wp_bootstrap_starter_widgets_init() {
     register_sidebar( array(
         'name'          => esc_html__( 'Sidebar', 'samdesme' ),
@@ -161,7 +162,6 @@ function recipes_init() {
         'rewrite' => array('slug' => 'recipes'),
         'query_var' => true,
         'menu_icon' => 'dashicons-book-alt',
-        'taxonomy' => 'allergenen',
         'supports' => array(
             'title',
             'editor',
@@ -181,17 +181,164 @@ function recipes_init() {
 add_action( 'init', 'recipes_init' );
 
 
+function events_init() {
+    $args = array(
+        'label' => 'Events',
+        'public' => true,
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'events'),
+        'query_var' => true,
+        'menu_icon' => 'dashicons-calendar-alt',
+        'supports' => array(
+            'title',
+            'editor',
+            'excerpt',
+            'trackbacks',
+            'custom-fields',
+            'comments',
+            'revisions',
+            'thumbnail',
+            'author',
+            'page-attributes',)
+    );
+    register_post_type( 'events', $args );
+}
+
+add_action( 'init', 'events_init' );
+
+
+function personal_init() {
+    $args = array(
+        'label' => 'Personal',
+        'public' => true,
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'personal'),
+        'query_var' => true,
+        'menu_icon' => 'dashicons-admin-users',
+        'supports' => array(
+            'title',
+            'editor',
+            'excerpt',
+            'trackbacks',
+            'custom-fields',
+            'comments',
+            'revisions',
+            'thumbnail',
+            'author',
+            'page-attributes',)
+    );
+    register_post_type( 'personal', $args );
+}
+
+add_action( 'init', 'personal_init' );
 
 /**
  * TAXONOMIES
  */
+
+function provinties_taxonomy() {
+
+
+    $labels = array(
+        'name' => _x( 'Provinties', 'taxonomy general name' ),
+        'singular_name' => _x( 'Provintie', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Search Provinties' ),
+        'all_items' => __( 'All Provinties' ),
+        'parent_item' => __( 'Parent Provintie' ),
+        'parent_item_colon' => __( 'Parent Provintie:' ),
+        'edit_item' => __( 'Edit Provintie' ),
+        'update_item' => __( 'Update Provinties' ),
+        'add_new_item' => __( 'Add New Provinties' ),
+        'new_item_name' => __( 'New Provintie Name' ),
+        'menu_name' => __( 'Provinties' ),
+    );
+
+
+    register_taxonomy('provinties',array('events'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'provinties' ),
+    ));
+
+}
+
+add_action( 'init', 'provinties_taxonomy', 0 );
+
+function tags_taxonomy() {
+
+
+    $labels = array(
+        'name' => _x( 'Tags', 'taxonomy general name' ),
+        'singular_name' => _x( 'Tag', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Search Tags' ),
+        'all_items' => __( 'All Tags' ),
+        'parent_item' => __( 'Parent Tags' ),
+        'parent_item_colon' => __( 'Parent Tag:' ),
+        'edit_item' => __( 'Edit Tag' ),
+        'update_item' => __( 'Update Tags' ),
+        'add_new_item' => __( 'Add New Tags' ),
+        'new_item_name' => __( 'New Tag Name' ),
+        'menu_name' => __( 'Tags' ),
+    );
+
+
+    register_taxonomy('tags',array('events'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'tags' ),
+    ));
+
+}
+
+add_action( 'init', 'tags_taxonomy', 0 );
+
+function settings_taxonomy() {
+
+
+    $labels = array(
+        'name' => _x( 'Settings', 'taxonomy general name' ),
+        'singular_name' => _x( 'Setting', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Search Settings' ),
+        'all_items' => __( 'All Settings' ),
+        'parent_item' => __( 'Parent Settings' ),
+        'parent_item_colon' => __( 'Parent Settings:' ),
+        'edit_item' => __( 'Edit Settings' ),
+        'update_item' => __( 'Update Settings' ),
+        'add_new_item' => __( 'Add New Settings' ),
+        'new_item_name' => __( 'New Setting Name' ),
+        'menu_name' => __( 'Settings' ),
+    );
+
+
+    register_taxonomy('settings',array('events'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'settings' ),
+    ));
+
+}
+
+add_action( 'init', 'settings_taxonomy', 0 );
 
 function allergenen_taxonomy() {
 
 
     $labels = array(
         'name' => _x( 'Allergenen', 'taxonomy general name' ),
-        'singular_name' => _x( 'Allergenen', 'taxonomy singular name' ),
+        'singular_name' => _x( 'Allergeen', 'taxonomy singular name' ),
         'search_items' =>  __( 'Search Allergenen' ),
         'all_items' => __( 'All Allergenen' ),
         'parent_item' => __( 'Parent Allergeen' ),
@@ -223,7 +370,7 @@ function moeilijkheden_taxonomy() {
 
     $labels = array(
         'name' => _x( 'Moeilijkheden', 'taxonomy general name' ),
-        'singular_name' => _x( 'Moeilijkheden', 'taxonomy singular name' ),
+        'singular_name' => _x( 'Moeilijkheid', 'taxonomy singular name' ),
         'search_items' =>  __( 'Search Moeilijkheden' ),
         'all_items' => __( 'All Moeilijkheden' ),
         'parent_item' => __( 'Parent Moeilijkheid' ),
@@ -322,7 +469,7 @@ function categorieën_taxonomy() {
         'rewrite' => array( 'slug' => 'categorieën' ),
     ));
 
-
+/*
     wp_insert_term(
         'patisserie',
         'categorieën'
@@ -342,7 +489,7 @@ function categorieën_taxonomy() {
         'pasta',
         'categorieën'
     );
-
+*/
 }
 
 add_action( 'init', 'categorieën_taxonomy', 0 );
