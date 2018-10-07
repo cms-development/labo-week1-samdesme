@@ -175,6 +175,7 @@ function recipes_init() {
             'page-attributes',)
     );
     register_post_type( 'recipes', $args );
+    
 }
 
 
@@ -235,6 +236,160 @@ function personal_init() {
 }
 
 add_action( 'init', 'personal_init' );
+
+/**
+ * META BOXES
+ */
+
+add_filter( 'rwmb_meta_boxes', 'prefix_meta_boxes' );
+function prefix_meta_boxes( $meta_boxes ) {
+    $meta_boxes[] = array(
+        'title'  => 'Test Meta Box',
+        'pages' => array('Recipes'),
+        'fields' => array(
+            array(
+                'id'   => 'subtitle',
+                'name' => 'Subtitle',
+                'type' => 'text',
+            ),
+            array(
+                'id'   => 'ingr',
+                'name' => 'Ingredients',
+                'type' => 'textarea',
+            ),
+        ),
+    );
+    return $meta_boxes;
+}
+
+/**
+ * CUSTOM POST FIELDS
+ */
+
+
+function my_cpf_recipes( $meta_boxes ) {
+	$prefix = 'prefix-';
+
+	$meta_boxes[] = array(
+		'id' => 'customfields_recipes',
+        'title' => esc_html__( 'Fields Recipes', 'cpf_recipes' ),
+        'pages' => array('Recipes'),
+		'post_types' => array('post' ),
+		'context' => 'advanced',
+		'priority' => 'default',
+		'autosave' => 'false',
+		'fields' => array(
+            array(
+				'id' => $prefix . 'text_3',
+				'type' => 'text',
+                'name' => esc_html__( 'Introtekst', 'cpf_recipes' ),
+                'size' => 100,			),
+			array(
+				'id' => $prefix . 'image_advanced_1',
+				'type' => 'image_advanced',
+				'name' => esc_html__( 'Afbeeldingen', 'cpf_recipes' ),
+				'max_file_uploads' => '2',
+			),
+			array(
+				'id' => $prefix . 'radio_2',
+				'name' => esc_html__( 'Alcohol?', 'cpf_recipes' ),
+				'type' => 'radio',
+				'placeholder' => '',
+				'options' => array(
+					'ja' => 'ja',
+					'nee' => 'nee',
+				),
+				'inline' => 'true',
+				'std' => 'ja',
+			),
+		
+			array(
+				'id' => $prefix . 'wysiwyg_4',
+				'name' => esc_html__( 'Extra tips', 'cpf_recipes' ),
+				'type' => 'wysiwyg',
+			),
+		),
+        
+	);
+
+	return $meta_boxes;
+}
+add_filter( 'rwmb_meta_boxes', 'my_cpf_recipes' );
+
+
+function my_cpf_events( $meta_boxes ) {
+	$prefix = '_';
+
+	$meta_boxes[] = array(
+		'id' => 'customfields_events',
+		'title' => esc_html__( 'Fields Events', 'cpf_events' ),
+        'post_types' => array('post', 'page' ),
+        'pages' => array('Events'),
+		'context' => 'advanced',
+		'priority' => 'default',
+		'autosave' => 'false',
+		'fields' => array(
+			array(
+				'id' => $prefix . 'date_1',
+				'type' => 'date',
+				'name' => esc_html__( 'Datum/Periode', 'cpf_events' ),
+			),
+			array(
+				'id' => $prefix . 'map_2',
+				'type' => 'map',
+				'name' => esc_html__( 'Locatie', 'cpf_events' ),
+			),
+            array(
+                'type'    => 'checkbox_list',
+                'id'      => 'cb',
+                'name'    => 'Betaalmogelijkheden',
+                'options' => array(
+                    array( 'value' => 'cash', 'label' => 'Cash' ),
+                    array( 'value' => 'bancontact', 'label' => 'Bancontact' ),
+                    array( 'value' => 'payconiq', 'label' => 'Payconiq' ),
+                ),
+                'flatten' => false,
+            ),
+		),
+	);
+
+	return $meta_boxes;
+}
+
+
+add_filter( 'rwmb_meta_boxes', 'my_cpf_events' );
+
+
+function my_cpf_pers( $meta_boxes ) {
+	$prefix = '_';
+
+	$meta_boxes[] = array(
+		'id' => 'customfields_pers',
+        'title' => esc_html__( 'Fields Personal', 'cpf_pers' ),
+        'pages' => array('Personal'),
+		'post_types' => array('post', 'page' ),
+		'context' => 'advanced',
+		'priority' => 'default',
+		'autosave' => 'false',
+		'fields' => array(
+			array(
+				'id' => $prefix . 'image_advanced_1',
+				'type' => 'image_advanced',
+				'name' => esc_html__( 'Afbeeldingen', 'cpf_pers' ),
+				'max_file_uploads' => '2',
+			),
+			array(
+				'id' => $prefix . 'video_2',
+				'type' => 'video',
+				'name' => esc_html__( 'Video', 'cpf_pers' ),
+				'max_file_uploads' => 1,
+			),
+		),
+	);
+
+	return $meta_boxes;
+}
+add_filter( 'rwmb_meta_boxes', 'my_cpf_pers' );
 
 /**
  * TAXONOMIES
